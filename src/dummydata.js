@@ -1,19 +1,19 @@
 export const homeAbout = [
   {
     id: 1,
-    cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
+    cover: "https://img.icons8.com/dotty/80/innovation.png",
     title: "Creativity and Innovation",
     desc: "Focus on creativity and innovation to come up with unique and memorable event concepts that stand out.",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/diploma.png",
+    cover: "https://img.icons8.com/ios/80/money-bag.png",
     title: "Budget Management",
     desc: "Expertise in creating and managing budgets that cater to clients' financial constraints while delivering high-quality events.",
   },
   {
     id: 1,
-    cover: "https://img.icons8.com/ios/80/000000/athlete.png",
+    cover: "https://img.icons8.com/ios/80/groups.png",
     title: "Client Communication",
     desc: "Strong communication skills to understand clients' needs, provide updates, and address any concerns throughout the planning process",
   },
@@ -172,168 +172,54 @@ export const coursesCard = [
     pricePer: "$3 per month",
   },
 ]
-export const online = [
-  {
-    cover: "./images/courses/online/o1.png",
-    hoverCover: "./images/courses/online/o1.1.png",
-    courseName: "UI/UX Design Courses",
-    course: "25 Courses",
-  },
-  {
-    cover: "./images/courses/online/o2.png",
-    hoverCover: "./images/courses/online/o2.1.png",
-    courseName: "Art & Design",
-    course: "25 Courses",
-  },
-  {
-    cover: "./images/courses/online/o3.png",
-    hoverCover: "./images/courses/online/o3.1.png",
-    courseName: "Computer Science",
-    course: "10 Courses",
-  },
-  {
-    cover: "./images/courses/online/o4.png",
-    hoverCover: "./images/courses/online/o4.1.png",
-    courseName: "History & Archeologic",
-    course: "15 Courses",
-  },
-  {
-    cover: "./images/courses/online/o5.png",
-    hoverCover: "./images/courses/online/o5.1.png",
-    courseName: "Software Engineering",
-    course: "30 Courses",
-  },
-  {
-    cover: "./images/courses/online/o6.png",
-    hoverCover: "./images/courses/online/o6.1.png",
-    courseName: "Information Software",
-    course: "60 Courses",
-  },
-  {
-    cover: "./images/courses/online/o7.png",
-    hoverCover: "./images/courses/online/o7.1.png",
-    courseName: "Health & Fitness",
-    course: "10 Courses",
-  },
-  {
-    cover: "./images/courses/online/o8.png",
-    hoverCover: "./images/courses/online/o8.1.png",
-    courseName: "Marketing",
-    course: "30 Courses",
-  },
-  {
-    cover: "./images/courses/online/o9.png",
-    hoverCover: "./images/courses/online/o9.1.png",
-    courseName: "Graphic Design",
-    course: "80 Courses",
-  },
-  {
-    cover: "./images/courses/online/o10.png",
-    hoverCover: "./images/courses/online/o10.1.png",
-    courseName: "Music",
-    course: "120 Courses",
-  },
-  {
-    cover: "./images/courses/online/o11.png",
-    hoverCover: "./images/courses/online/o11.1.png",
-    courseName: "Business Administration",
-    course: "17 Courses",
-  },
-  {
-    cover: "./images/courses/online/o12.png",
-    hoverCover: "./images/courses/online/o12.1.png",
-    courseName: "Web Management",
-    course: "17 Courses",
-  },
-]
-export const team = [
-  {
-    cover: "./images/team/t1.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t4.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t5.webp",
-    name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-]
+
+
 export const price = [
   {
     name: "Basic Package",
     price: "$500",
-    desc: "Our Basic Package is designed for clients seeking fundamental event assistance. This package includes an initial consultation to discuss your event's concept and requirements. We'll provide budget guidance to help you allocate resources effectively. the Basic Package covers vendor research and recommendations based on your event needs.  ",
+    desc: "Our Basic Package is designed for clients seeking fundamental event assistance. This package includes an initial consultation to discuss your event's concept and requirements. We'll provide budget guidance to help you allocate resources effectively.Vendor research and recommendations included.",
   },
   {
     name: "Standard Package",
     price: "$1,200",
-    desc: "Stepping up, our Standard Package includes all the elements of the Basic Package with added features. We'll bring your event to life with event design and theming, ensuring a cohesive and captivating atmosphere. Our team will take charge of vendor coordination and negotiation, leaving you stress-free.RSVP management, on-site support, unforgettable. ",
+    desc: "Stepping up, our Standard Package includes all the elements of the Basic Package with added features. We'll bring your event to life with event design and theming, ensuring a cohesive and captivating atmosphere. Our team will take charge of vendor coordination and negotiation, leaving you stress-free.RSVP management, on-site support, unforgettable. Enjoy the day!! ",
   },
   {
     name: "Premium Package",
     price: "$2,500",
-    desc: "Elevate your event experience with our Premium Package. This comprehensive offering builds upon the Standard Package by offering full event design and theming services, creating an unforgettable ambiance. Our expert planners will be on-site to manage all aspects of the event, from coordinating vendors to overseeing guest list management. ",
+    desc: "Elevate your event experience with our Premium Package. This comprehensive offering builds upon the Standard Package by offering full event design and theming services, creating an unforgettable ambiance. Our expert planners will be on-site to manage all aspects of the event, from coordinating vendors to overseeing guest list management.Enhanced premium experience.",
   },
   {
     name: "Custom Package",
     price: "$3,000",
-    desc: "Our Custom Package is perfect for those with unique needs. Starting at $3,000, this package offers tailored services based on your specific requirements. Whether it's entertainment booking, transportation coordination, or specialized themes, we're here to bring your vision to life. The price will be determined based on the extent of customization and services included.",
+    desc: "Our Custom Package is perfect for those with unique needs. Starting at $3,000, this package offers tailored services based on your specific requirements. Whether it's entertainment booking, transportation coordination, or specialized themes, we're here to bring your vision to life. The price will be determined based on the extent of customization and services included.  ",
   },
 ]
 export const faq = [
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title:"What is Eventify?",
+    desc: "Eventify is a comprehensive event planning platform designed to streamline the process of organizing, managing, and executing various types of events, from corporate conferences to weddings and parties.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How do I create an account on Eventify?",
+    desc: "To create an account on Eventify, simply click on the 'sign up' button on the homepage and follow the prompts to provide your basic information.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What types of events can I plan using Eventify?",
+    desc: " Eventify supports a wide range of events, including corporate conferences, seminars, weddings, birthdays, parties, workshops, and more.",
   },
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How do I start planning an event?",
+    desc: "Once you've signed in, click on the 'Create Event' button and follow the step-by-step guide to set up your event details, including date, location, guest list, and more.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Can I customize the event website and invitations?",
+    desc: "  Absolutely! Eventify provides various customization options for event websites and invitations, allowing you to choose themes, colors, and layouts that match your event's style.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How can I manage invitations and RSVPs?",
+    desc: "Eventify offers a built-in invitation system that allows you to send personalized invitations to your guest list. Guests can easily RSVP through the event website, and you can track responses in real-time.",
   },
 ]
 export const blog = [
