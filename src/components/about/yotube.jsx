@@ -7,7 +7,7 @@ const StyledYouTubeVideo = ({ videoUrl }) => {
 
   return (
     <section>
-      <div className="flex items-center justify-center  ">
+      <div className="flex items-center justify-center min-h-screen bg-gray-100  ">
         <div className="w-72 h-auto sm:max-w-screen-md md:max-w-screen-lg lg:max-w-screen-xl xl:max-w-screen-2xl">
           <div className="">
             <div className="relative rounded-lg overflow-hidden">
