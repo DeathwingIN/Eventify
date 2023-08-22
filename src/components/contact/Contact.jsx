@@ -2,10 +2,35 @@ import React, { useState } from "react";
 import Back from "../common/back/Back";
 import "./contact.css";
 import axios from "axios";
+import { App } from "../../firebase_init";
+import { addDoc, collection, getFirestore } from "firebase/firestore";
 
 const Contact = () => {
+   const [msgShow, setMsgShow] = useState(false);
+   const [dis, setDis] = useState(false);
   const map =
     'https://www.google.com/maps/d/embed?mid=1p2BLuSU895yyzGwy1O8tgDG7Q7o&hl=en_US&ehbc=2E312F"" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ';
+
+    function submit(e) {
+      e.preventDefault();
+      setDis(true);
+      const form_data = new FormData(e.target);
+      const FS = getFirestore(App);
+
+      const c = collection(FS, "messages");
+      const d = {
+         name: form_data.get("name"),
+         email: form_data.get("email"),
+         message: form_data.get("message"),
+         subject: form_data.get("subject"),
+      };
+      addDoc(c, d).then(() => {
+         setMsgShow(true);
+         console.log(d);
+      }).finally(() => {
+         setDis(false);
+      });
+    }
 
   return (
     <>
@@ -34,17 +59,17 @@ const Contact = () => {
               </div>
             </div>
 
-            <form action="">
+            <form onSubmit={submit}>
               <div className="flexSB">
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
+                <input type="text" name="name" id="name" placeholder="Name" />
+                <input type="email" name="email" id="email" placeholder="Email" />
               </div>
-              <input type="text" placeholder="Subject" />
-              <textarea cols="30" rows="10">
-                Create a message here...
-              </textarea>
-              <button className="primary-btn">SEND MESSAGE</button>
+              <input type="text" name="subject" id="subject" placeholder="Subject" />
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Create a message here..."></textarea>
+              <button disabled={dis} className="primary-btn" type="submit">SEND MESSAGE</button>
             </form>
+
+            <div hidden={!msgShow} style={{background: "lightgreen", margin: "10px 0", padding: "10px"}}>Message sent!</div>
 
             <h3>Follow us here</h3>
             <div className="social">
