@@ -47,13 +47,13 @@ const Header = () => {
                 </Link>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/signup" target="_blank" rel="noopener noreferrer">
                 <Link to="/signup" target="_blank" rel="noopener noreferrer">
                   Signup
                 </Link>
               </a>
-            </li>
+            </li> */}
           </ul>
           {/* <div className='start'>
             <div className='button'>GET CERTIFICATE</div>
