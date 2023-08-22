@@ -36,7 +36,7 @@ const Header = () => {
             <li>
               <a href="/pricing" target="_blank" rel="noopener noreferrer">
                 <Link to="/pricing" target="_blank" rel="noopener noreferrer">
-                  Features
+                  Price
                 </Link>
               </a>
             </li>
