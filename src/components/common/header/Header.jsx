@@ -52,6 +52,7 @@ const Header = () => {
                 <Link to="/signup" target="_blank" rel="noopener noreferrer">
                   Signup
                 </Link>
+                
               </a>
             </li> */}
           </ul>
