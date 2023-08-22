@@ -290,24 +290,24 @@ export const team = [
 ]
 export const price = [
   {
-    name: "BASIC PLAN",
-    price: "49K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Basic Package",
+    price: "$500",
+    desc: "Our Basic Package is designed for clients seeking fundamental event assistance. This package includes an initial consultation to discuss your event's concept and requirements. We'll provide budget guidance to help you allocate resources effectively. the Basic Package covers vendor research and recommendations based on your event needs.  ",
   },
   {
-    name: "BEGINNER PLAN",
-    price: "79K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Standard Package",
+    price: "$1,200",
+    desc: "Stepping up, our Standard Package includes all the elements of the Basic Package with added features. We'll bring your event to life with event design and theming, ensuring a cohesive and captivating atmosphere. Our team will take charge of vendor coordination and negotiation, leaving you stress-free.RSVP management, on-site support, unforgettable. ",
   },
   {
-    name: "PREMIUM PLAN",
-    price: "109k",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Premium Package",
+    price: "$2,500",
+    desc: "Elevate your event experience with our Premium Package. This comprehensive offering builds upon the Standard Package by offering full event design and theming services, creating an unforgettable ambiance. Our expert planners will be on-site to manage all aspects of the event, from coordinating vendors to overseeing guest list management. ",
   },
   {
-    name: "ULTIMATE PLAN",
-    price: "149K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Custom Package",
+    price: "$3,000",
+    desc: "Our Custom Package is perfect for those with unique needs. Starting at $3,000, this package offers tailored services based on your specific requirements. Whether it's entertainment booking, transportation coordination, or specialized themes, we're here to bring your vision to life. The price will be determined based on the extent of customization and services included.",
   },
 ]
 export const faq = [
