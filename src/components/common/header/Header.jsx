@@ -9,7 +9,8 @@ const Header = () => {
   return (
     <>
       <Head />
-      <header className>
+      <header style={{display: "flex",
+    justifyContent: "center"}}>
         <nav className="PositionSettle flexSB">
           <ul
             className={click ? "mobile-nav" : "flexSB "}
@@ -35,7 +36,7 @@ const Header = () => {
             <li>
               <a href="/pricing" target="_blank" rel="noopener noreferrer">
                 <Link to="/pricing" target="_blank" rel="noopener noreferrer">
-                  Features
+                  Price
                 </Link>
               </a>
             </li>

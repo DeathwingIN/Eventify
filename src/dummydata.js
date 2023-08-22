@@ -281,23 +281,23 @@ export const faq = [
 export const testimonal = [
   {
     id: 1,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Alex Thompson",
+    post: "Sales Manager",
+    desc: "As a Sales Manager in the tech industry, attending the TechExpo trade show organized by EventConnect was an absolute game-changer. The event brought together industry leaders and innovators, allowing us to showcase our latest products and connect with potential clients. The seamless organization, attention to detail, and diverse range of exhibitors made it a truly valuable experience. I'm already looking forward to the next event!",
     cover: "./images/testo/t1.webp",
   },
   {
     id: 2,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Rachel Davis",
+    post: "Music Enthusiast",
+    desc: "Being a music enthusiast, I've attended my fair share of concerts, but the SoundFest music festival curated by MelodyMakers was an unforgettable experience. From the lineup of incredible artists to the vibrant atmosphere, it was a music lover's dream. The festival's organization and crowd management were impeccable, creating a seamless and enjoyable event for all attendees. MelodyMakers knows how to bring music to life!",
     cover: "./images/testo/t2.webp",
   },
   {
     id: 3,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Mohammad Khan",
+    post: "Software Engineer, TechSolutions Ltd.",
+    desc: "As a software engineer, staying updated with the latest trends is crucial. The TechInsights virtual conference organized by ProEventTech was a revelation. The platform's user-friendly interface made accessing sessions and networking a breeze. The diverse range of topics and expert speakers provided valuable insights into the tech landscape. ProEventTech's dedication to delivering a high-quality virtual experience sets the standard for online professional events.",
     cover: "./images/testo/t3.webp",
   },
 ]
