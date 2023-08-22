@@ -90,12 +90,12 @@ export default function GridOfCards() {
               </Typography>
             </CardContent>
             <CardActions>
-              <Button
+              {/* <Button
                 size="small"
                 className="hover:bg-gradient-to-tr hover:from-pink-500 hover:to-purple-500 hover:text-white"
               >
                 More Information
-              </Button>
+              </Button> */}
             </CardActions>
           </Card>
         ))}
