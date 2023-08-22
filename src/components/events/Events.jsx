@@ -18,54 +18,60 @@ import event7 from "./images/events7.png";
 const dummyData = [
   {
     id: 1,
-    title: "Lizard 1",
-    image: event1, 
-    description: "Description for lizard 1...",
+    title: "Weddings",
+    image: event1,
+    description:
+      "  Create your dream wedding with our personalized planning services. From enchanting venues to exquisite décor, we'll make your special day truly magical.",
   },
   {
     id: 2,
-    title: "Lizard 2",
-    image: event2, 
-    description: "Description for lizard 2...",
+    title: " Corporate Events",
+    image: event2,
+    description:
+      " Elevate your company's image with meticulously organized corporate events. From conferences to team-building retreats, we ensure professionalism and success.",
   },
   {
     id: 2,
-    title: "Lizard 2",
-    image: event2, 
-    description: "Description for lizard 2...",
+    title: " Social Gathering",
+    image: event2,
+    description:
+      " Whether it's a family reunion or a casual get-together, our event planning services make every moment unforgettable. Relax and enjoy while we take care of the details.",
   },
   {
     id: 2,
-    title: "Lizard 2",
-    image: event3, 
-    description: "Description for lizard 2...",
+    title: "Musical Events",
+    image: event3,
+    description:
+      "Bring the rhythm to life with our musical event planning. From live concerts to music festivals, we curate extraordinary experiences for music enthusiasts.",
   },
   {
     id: 2,
-    title: "Lizard 2",
-    image: event4, 
-    description: "Description for lizard 2...",
+    title: " Trade Shows",
+    image: event4,
+    description:
+      "Drive business growth with well-organized trade show exhibits. We ensure a dynamic environment that attracts visitors and maximizes your brand's visibility.",
   },
   {
     id: 2,
-    title: "Lizard 2",
-    image: event5, 
-    description: "Description for lizard 2...",
+    title: "Festivals",
+    image: event5,
+    description:
+      " Immerse yourself in the excitement of festivals crafted to perfection. From cultural celebrations to community events, we bring people together for joyous occasions.",
   },
   {
     id: 2,
-    title: "Lizard 2",
-    image: event6, 
-    description: "Description for lizard 2...",
+    title: "Promotions",
+    image: event6,
+    description:
+      " Boost your brand's visibility with captivating promotional events. We create engaging campaigns that leave a lasting impression on your target audience.",
   },
   {
     id: 2,
-    title: "Lizard 2",
-    image: event7, 
-    description: "Description for lizard 2...",
+    title: "Virtual/Hybrid Event",
+    image: event7,
+    description:
+      "Transform your events into engaging virtual or hybrid experiences. We harness technology to connect audiences, deliver content, and create memorable interactions.",
   },
-
-  
 ];
 
 export default function GridOfCards() {
