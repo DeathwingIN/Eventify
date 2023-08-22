@@ -9,7 +9,8 @@ const Header = () => {
   return (
     <>
       <Head />
-      <header className>
+      <header style={{display: "flex",
+    justifyContent: "center"}}>
         <nav className="PositionSettle flexSB">
           <ul
             className={click ? "mobile-nav" : "flexSB "}
