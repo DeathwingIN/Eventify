@@ -2,6 +2,7 @@ import React from "react"
 import { blog } from "../../../dummydata"
 import "./footer.css";
 import {FaFacebookF, FaYoutube, FaInstagram, FaTwitter} from "react-icons/fa"
+import Logo from "../../../Logo.png";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
           <div className="w-full h-[271px]">
             <div className="w-full h-full flex ">
               <div className="w-2/5 h-full">
-                <img src="/logo.png" alt="" srcset="" />
+                <img src={Logo} alt="" srcset="" />
               </div>
               <div className="w-3/5 h-full"></div>
             </div>
