@@ -13,8 +13,9 @@ const Hero = () => {
               title="Best Event Planing Expertise"
             />
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts.
+              The ultimate event management website that caters to all types of
+              events from weddings to corporate conferences and everything in
+              between
             </p>
             <div className="button">
               <button className="primary-btn">
