@@ -36,7 +36,7 @@ export const awrapper = [
   {
     cover: "https://img.icons8.com/ios/80/ffffff/bed.png",
     data: "1,00",
-    title: "RESORVATIONS",
+    title: "RESERVATIONS",
   },
   {
     cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
